@@ -1,0 +1,44 @@
+{
+  "name": "jquery.country.select",
+  "title": "jQuery Country Select",
+  "description": "Populates drop-down lists with all countries",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jasonhinkle/jquery-country-select",
+  "author": {
+    "name": "Jason Hinkle",
+    "email": "verysimple.com",
+    "url": "http://verysimple.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonhinkle/jquery-country-select.git"
+  },
+  "bugs": "https://github.com/jasonhinkle/jquery-country-select.git/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jasonhinkle/jquery-country-select.git/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.11.0"
+  },
+  "keywords": [
+    
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
