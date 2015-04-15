@@ -3,36 +3,42 @@
 Populates drop-down lists with all countries
 
 ## Getting Started
-Download the [production version][min] or the [development version][max].
+Download the [minified version][min] or the [development version][max].
 
-[min]: https://raw.github.com/jason/jquery.country.select/master/dist/country.select.min.js
-[max]: https://raw.github.com/jason/jquery.country.select/master/dist/country.select.js
+[min]: https://raw.githubusercontent.com/jasonhinkle/jquery-country-select/master/dist/jquery.country.select.min.js
+[max]: https://raw.githubusercontent.com/jasonhinkle/jquery-country-select/master/dist/jquery.country.select.js
 
-In your web page:
+On your web page:
 
 ```html
-<script src="jquery.js"></script>
-<script src="dist/jquery.country.select.min.js"></script>
+<select id="country" data-selected-value="US"></select>
+
+<script src="path/to/jquery.js"></script>
+<script src="path/to/jquery.country.select.min.js"></script>
 <script>
 $(document).ready(function(){
-         
-  var options = {
-    showFullName: true,
-    showEmptyValue: true,
-    emptyValueLabel: 'Select Country...'
-  };
-             
-  $('#country').countrySelect(options);
+    
+  // initialize the country drop-down
+  $('#country').countrySelect();
              
 });
 </script>
 ```
 
 ## Documentation
-_(Coming soon)_
 
-## Examples
-_(Coming soon)_
+Available Options:
+
+```javascript
+var options = {
+  showFullName: true,
+  showEmptyValue: true,
+  emptyValueLabel: 'Select Country...'
+};
+             
+$('#country').countrySelect(options);
+```
+
 
 ## Release History
 * 0.1.0 Initial Release

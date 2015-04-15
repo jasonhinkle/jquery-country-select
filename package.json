@@ -13,11 +13,11 @@
     "type": "git",
     "url": "git://github.com/jasonhinkle/jquery-country-select.git"
   },
-  "bugs": "https://github.com/jasonhinkle/jquery-country-select.git/issues",
+  "bugs": "https://github.com/jasonhinkle/jquery-country-select/issues",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jasonhinkle/jquery-country-select.git/blob/master/LICENSE"
+      "url": "https://raw.githubusercontent.com/jasonhinkle/jquery-country-select/master/LICENSE"
     }
   ],
   "dependencies": {
