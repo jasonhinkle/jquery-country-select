@@ -36,7 +36,7 @@ var options = {
   showFullName: true,
   showEmptyValue: true,
   emptyValueLabel: 'Select Country...',
-  countries: {US: 'United States', 'CA': 'Canada'}
+  countries: {US: 'United States', CA: 'Canada'}
 };
              
 $('#country').countrySelect(options);
