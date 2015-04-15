@@ -1,14 +1,16 @@
 # jQuery Country Select
 
-Populates drop-down lists with all countries
+jQuery Country Select is a "Country Picker" control which populates a select (drop-down) with all available countries and ensures that the correct value is selected.
+
+The plugin populates the drop-down without making any style changes, making it compatible with most any UI style kit. 
 
 ## Getting Started
-Download the [minified version][min] or the [development version][max].
+Clone the repository or simple download the [minified version][min] or the [development version][max].
 
 [min]: https://raw.githubusercontent.com/jasonhinkle/jquery-country-select/master/dist/jquery.country.select.min.js
 [max]: https://raw.githubusercontent.com/jasonhinkle/jquery-country-select/master/dist/jquery.country.select.js
 
-On your web page:
+Include the following on your web page. This example uses the id "country" for the select input, however you can use any id that you choose.
 
 ```html
 <select id="country" data-selected-value="US"></select>
@@ -27,13 +29,14 @@ $(document).ready(function(){
 
 ## Documentation
 
-Available Options:
+When initializing the country selector, you can override the default options by passing an object with any/all of the following values:
 
 ```javascript
 var options = {
   showFullName: true,
   showEmptyValue: true,
-  emptyValueLabel: 'Select Country...'
+  emptyValueLabel: 'Select Country...',
+  countries: {US: 'United States', 'CA': 'Canada'}
 };
              
 $('#country').countrySelect(options);
